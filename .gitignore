@@ -1,13 +1,20 @@
-# Java
+# Java / Spring Boot
+target/
 *.class
-/target/
-/.idea/
+*.jar
+*.war
 
-# Node
+# Node / React
 node_modules/
-/dist/
-/build/
+dist/
+build/
 
-# Environment
+# Environment and IDEs
 .env
-.env.local
+*.iml
+.idea/
+.vscode/
+
+# OS generated
+.DS_Store
+Thumbs.db
